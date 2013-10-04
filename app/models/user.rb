@@ -31,6 +31,9 @@ class User < ActiveRecord::Base
   # Devise won't validate custom attr; 
   validates :username, presence: true
 
+  def full_name
+  	"#{first_name} #{last_name}"
+  end
 
 
 end
