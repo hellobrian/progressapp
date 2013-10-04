@@ -1,0 +1,12 @@
+Progress app: 
+- practicing with: 
+
+implementating Devise authentication
+-- what parts do we need? 
+-- can we cut out some parts of Devise? 
+
+Foundation styling: 
+-- using a layout template
+-- using basic styles
+-- stretch: can you utilize a grid and do custom layouts? 
+
