@@ -1,8 +1,6 @@
 Progressapp1::Application.routes.draw do
 
-  get "home/index"
-
-  devise_for :users
+  devise_for :users, path_names: { sign_in: "login", sign_out: "logout" }
 
   root :to => "home#index"
   # The priority is based upon order of creation:
